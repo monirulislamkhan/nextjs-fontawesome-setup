@@ -14,7 +14,7 @@ export default function Home() {
       <br />
       <FontAwesomeIcon icon={faShieldHalved} /> {/* Also this icon is work*/}
       <br />
-      {/* Below icon not working */}
+      {/* Below icon not working, I want to solution this type of problem.*/}
       <FontAwesomeIcon icon={solid("shield-halved")} />
     </main>
   );
