@@ -1,7 +1,8 @@
 "use client";
+import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
-import { faShieldHalved } from "@fortawesome/pro-thin-svg-icons";
+import { far, fab } from "@awesome.me/kit-e7972d293c/icons";
+// import { faSwimmingPool } from "@fortawesome/free-solid-svg-icons";
 
 // When install or import below code, then the not working
 // import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
@@ -10,14 +11,22 @@ import { faShieldHalved } from "@fortawesome/pro-thin-svg-icons";
 export default function Home() {
   return (
     <main className="container-xl">
-      <FontAwesomeIcon icon={faThumbsUp} /> {/* This icon is work*/}
-      <br />
-      <FontAwesomeIcon icon={faDownload} /> {/* Als this icon is work*/}
-      <br />
-      <FontAwesomeIcon icon={faShieldHalved} /> {/* Also this icon is work*/}
-      <br />
-      {/* Below icon not working, I want to solution this type of problem.*/}
+      <FontAwesomeIcon icon={far.faHouse} />
+      <FontAwesomeIcon icon={far.faMouse} />
+      <FontAwesomeIcon icon={far.faCheese} />
+      <FontAwesomeIcon icon={far.faPersonSwimming} />
+      <FontAwesomeIcon icon={far.faDownload} />
+      <FontAwesomeIcon icon={far.faHeart} />
       <p>When install or import below code, then the not working</p>
+      <FontAwesomeIcon icon={far.faBed} />
+      <FontAwesomeIcon icon={fab.faFacebook} />
+      <FontAwesomeIcon icon={fab.faTwitter} />
+      <FontAwesomeIcon icon={fab.faLinkedin} />
+      <FontAwesomeIcon icon={fab.faLinkedin} />
+      <FontAwesomeIcon icon={far.faBomb} />
+      <FontAwesomeIcon icon={far.faImage} />
+      <FontAwesomeIcon icon={far.faLocationDot} />
+      {/* <FontAwesomeIcon icon="fa-brands fa-facebook" /> */}
       {/* <FontAwesomeIcon icon={solid("shield-halved")} /> */}
     </main>
   );
